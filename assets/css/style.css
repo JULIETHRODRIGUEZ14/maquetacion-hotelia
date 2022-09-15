@@ -152,4 +152,11 @@ nav a{
         justify-content: center;
         padding: auto;
     }
+    .box-black{
+        background-color: #000;
+    }
+    #opiniones {
+        display: flex;
+        justify-content:space-around;
+    }
     
