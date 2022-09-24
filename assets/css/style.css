@@ -25,8 +25,9 @@ body{
     font-size: 16px;
 }
  
-  h1,h2,h3,h4,h5{
+  #h1,h2,h3,h4,h5{
     font-family: 'Marcellus', serif;
+    justify-content: space-around;
 }
 
 header{
@@ -157,6 +158,16 @@ nav a{
     }
     #opiniones {
         display: flex;
-        justify-content:space-around;
+        padding: 2rem;
+        
     }
-    
+    #localizacion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #terminos{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
